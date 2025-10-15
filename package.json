@@ -1,0 +1,22 @@
+{
+  "name": "discremy",
+  "version": "1.0.1",
+  "description": "Your discord bot framework",
+  "main": "lib/Core.js",
+  "author": "ronaldzav",
+  "license": "MIT",
+  "bin": {
+    "discremy": "bin/discremy.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "discord.js": "14.11.0",
+    "express": "5.1.0",
+    "moment": "2.29.4",
+    "mongodb": "5.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/discremy/discremy.git"
+  }
+}
