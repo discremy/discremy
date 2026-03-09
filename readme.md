@@ -8,7 +8,8 @@ Develop quickly, easily and efficiently.
 
 ## 🚀 Features
 
-- Integrated support for MongoDB databases.
+- Optional package-based MongoDB integration via `@discremy/mongodb`.
+- Optional package-based MySQL integration via `@discremy/mysql`.
 - Built-in REST API system using routes.
 - Modular file structure for scalability.
 - Automatic slash command registration.
@@ -32,6 +33,13 @@ Once your project is created, go to the folder that was just created in your cur
 cd my-discremy-app
 ```
 
+Install optional modules only if your bot needs them:
+
+```bash
+npm i @discremy/mongodb
+npm i @discremy/mysql
+```
+
 Start the bot:
 
 ```bash
@@ -51,4 +59,3 @@ You can review all the documentation on the [official Discremy website.](https:/
 MIT License © 2025 PowerDiscord Team
 
 ---
-
