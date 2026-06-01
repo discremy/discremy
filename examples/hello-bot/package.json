@@ -8,6 +8,6 @@
     "start": "node node_modules/discremy/bin/discremy.js start"
   },
   "dependencies": {
-    "discremy": "^2.0.2"
+    "discremy": "^26.5.31"
   }
 }
