@@ -24,6 +24,12 @@ Develop quickly, easily and efficiently.
 Run this command in your terminal to create a sample project:
 
 ```bash
+npx discremy create my-discremy-app
+```
+
+Or use the dedicated project generator:
+
+```bash
 npx create-discremy
 ```
 

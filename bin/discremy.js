@@ -251,7 +251,7 @@ async function start() {
 
 if (args[0] === 'start') {
     start();
-} else if (args[0] === 'init') {
+} else if (args[0] === 'init' || args[0] === 'create') {
     const init = require('../lib/cli/init');
     const targetDir = args[1] || null;
     init(targetDir).catch((err) => {
@@ -272,8 +272,9 @@ if (args[0] === 'start') {
     console.log(`${bgBlue}${white}${bold}${underline} DISCREMY ${reset} ${blue}${bold}CLI${reset}`);
     console.log('');
     console.log('Available commands:');
-    console.log(`  ${cyan}${bold}discremy init [dir]${reset}  - Create a new Discremy project`);
-    console.log(`                        Use ${cyan}${bold}.${reset} to initialize in current directory`);
+    console.log(`  ${cyan}${bold}discremy create [dir]${reset} - Create a new Discremy project`);
+    console.log(`                         Use ${cyan}${bold}.${reset} to initialize in current directory`);
+    console.log(`  ${cyan}${bold}discremy init [dir]${reset}   - Alias of create`);
     console.log(`  ${cyan}${bold}discremy start${reset}       - Start your bot`);
     console.log('');
 }

@@ -1,0 +1,13 @@
+{
+  "name": "discremy-hello-bot-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Minimal Discremy example bot with /hello",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/discremy/bin/discremy.js start"
+  },
+  "dependencies": {
+    "discremy": "^2.0.2"
+  }
+}
