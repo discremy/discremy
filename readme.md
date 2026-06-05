@@ -27,12 +27,6 @@ Run this command in your terminal to create a sample project:
 npx discremy create my-discremy-app
 ```
 
-Or use the dedicated project generator:
-
-```bash
-npx create-discremy
-```
-
 Once your project is created, go to the folder that was just created in your current directory:
 
 ```bash
